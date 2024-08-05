@@ -11,7 +11,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
   .setTitle('Blog Pessoal')
   .setDescription('Projeto Blog Pessoal')
-  .setContact("Generation Brasil","http://www.generationbrasil.online","ezequiellalmeida2003@gmail.com")
+  .setContact("Ezequiel Almeida","https://github.com/EzeAlmeida/blogpessoal_nest.git","ezequiellalmeida2003@gmail.com")
   .setVersion('1.0')
   .addBearerAuth()
   .build();
